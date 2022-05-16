@@ -7,6 +7,41 @@
     <title>Todo List</title>
 </head>
 <body>
-    
+    <div id="top">
+        <h1>Todo List</h1>
+    </div>
+    <div class="content">
+        <div class="flex-item">
+            <h2>Fill out the form below to add an item to your list</h2>
+        </div>
+        <div class="flex-item" style="padding-bottom: 3%;">
+            <form action="">
+                <label for="">Name</label>
+                <input class="text-input" type="text" name="" id="name">
+                <label for="">Description</label>
+                <input class="text-input" type="text" name="" id="desc">
+                <label for="">Due Date</label>
+                <input class="text-input" type="date" name="" id="date">
+                <label for="">Priority</label>
+                <select id="priority">
+                    <option value="low">Low</option>
+                    <option value="high">High</option>
+                </select>
+            </form>
+            <button id="add">Add</button>
+        </div>
+        <div class="flex-item-2">
+            <ol id="list">
+                <div class="listitem">
+                    <h2>Test</h2>
+                    <h3>test</h3>
+                    <h4>10/10/2022</h4>
+                    <h4>Priority: high</h4>
+                    <button>Check</button>
+                    <button>Remove</button>
+                </div>
+            </ol>
+        </div>
+    </div>
 </body>
 </html>

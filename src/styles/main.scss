@@ -1,0 +1,50 @@
+body {
+    background: lightblue;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.text-input {
+    width: 7vw;
+}
+
+#add {
+    margin-left: 1%;
+}
+
+#top {
+    text-align: center;
+}
+
+.content {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.flex-item {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-item-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.listitem {
+    border-top: solid 1px black;
+    padding-top: 1%;
+    margin-top: 1%;
+}
+
+.listitem > h2, h3, h4, p {
+    margin: 8px;
+}
