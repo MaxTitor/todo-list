@@ -7,6 +7,7 @@ function addProject() {
     let project = createProject(projectName);
     myProjects.push(project);
     updateProjectsHtml();
+    console.log(myProjects);
 }
 
 export default addProject

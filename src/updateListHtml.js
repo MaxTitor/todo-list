@@ -1,3 +1,5 @@
+import storeProjects from "./storeProjects";
+
 function updateHtml(projectList) {
     document.getElementById("list").innerHTML = "";
     let orderedList = document.getElementById("list");
@@ -45,6 +47,7 @@ function updateHtml(projectList) {
                 Item.check = false;
                 nameH2.classList.remove("check");
             }
+            storeProjects();
         });
         listItem.appendChild(checkBtn);
 

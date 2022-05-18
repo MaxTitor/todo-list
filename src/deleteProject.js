@@ -1,5 +1,6 @@
 import myProjects from "./index";
 import updateHtml from "./updateProjectsHtml";
+import storeProjects from "./storeProjects";
 
 function deleteProject() {
     const selectedProject = document.getElementById("project-list").value;
@@ -11,6 +12,7 @@ function deleteProject() {
     });
 
     myProjects.splice(selectedProjectIndex, selectedProjectIndex + 1);
+    storeProjects();
     updateHtml();
 }
 
