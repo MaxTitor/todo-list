@@ -8,7 +8,7 @@ h1 {
 }
 
 .text-input {
-    width: 7vw;
+    width: 8vw;
 }
 
 #add {
@@ -47,4 +47,8 @@ h1 {
 
 .listitem > h2, h3, h4, p {
     margin: 8px;
+}
+
+.check {
+    text-decoration: line-through;
 }

@@ -12,7 +12,25 @@
     </div>
     <div class="content">
         <div class="flex-item">
-            <h2>Fill out the form below to add an item to your list</h2>
+            <h2>Fill out the form below to add a new project</h2>
+        </div>
+        <div class="flex-item" style="padding-bottom: 3%;">
+            <form action="">
+                <label for="">New Project</label>
+                <input class="text-input" type="text" id="project">
+            </form>
+            <button id="new-project" style="margin: 0 5px;">Add</button>
+            <form action="">
+                <label for="" style="margin-right: 5px;">Projects</label>
+                <select class="text-input" id="project-list">
+                    <!-- <option value="project-1">Project 1</option> -->
+                </select>
+            </form>
+            <button id="select-project" style="margin: 0 5px;">Select</button>
+            <button id="delete-project">Delete</button>
+        </div>
+        <div class="flex-item">
+            <h2>Fill out the form below to add a new item to your list</h2>
         </div>
         <div class="flex-item" style="padding-bottom: 3%;">
             <form action="">
@@ -30,16 +48,17 @@
             </form>
             <button id="add">Add</button>
         </div>
+        
         <div class="flex-item-2">
             <ol id="list">
-                <div class="listitem">
+                <!-- <li class="listitem">
                     <h2>Test</h2>
                     <h3>test</h3>
                     <h4>10/10/2022</h4>
                     <h4>Priority: high</h4>
                     <button>Check</button>
                     <button>Remove</button>
-                </div>
+                </li> -->
             </ol>
         </div>
     </div>
